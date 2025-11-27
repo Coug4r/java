@@ -22,5 +22,7 @@ public class Calculadora {
 	public double promediar(double valor1, double valor2, double valor3) {
 		double prom = (valor1 + valor2 + valor3)/3;
 		return prom;
+	}public String mostrarResultado() {
+		return "Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos."; 
 	}
 }
