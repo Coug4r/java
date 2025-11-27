@@ -19,4 +19,8 @@ public class Calculadora {
 		double res = valor1 / valor2;
 		return res;
 	}
+	public double promediar(double valor1, double valor2, double valor3) {
+		double prom = (valor1 + valor2 + valor3)/3;
+		return prom;
+	}
 }
