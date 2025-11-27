@@ -1,0 +1,31 @@
+package com.krakedev;
+
+public class TestPersona {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Persona p; //Paso 1 declaro una variable llamada p de tipo poersona
+		Persona p2 = new Persona();
+		p = new Persona();//Instanciar un objeto persona y referenciarlo con p
+		//Accedo a los atributos
+		System.out.println("Nombre: " + p.nombre);
+		System.out.println("Edad: " + p.edad);
+		System.out.println("Estatura: " + p.estatura);
+		//Modificar los atributos
+		p.nombre = Mario;
+		p.edad = 45;
+		p.estatura = 1.56;
+		
+		System.out.println("------------------------");
+		System.out.println("Nombre: " + p.nombre);
+		System.out.println("Edad: " + p.edad);
+		System.out.println("Estatura: " + p.estatura);
+		
+		
+		p2.nombre= "Angelina";
+		System.out.println("p.nombre " + p.nombre);
+		System.out.println("p2.nombre " + p2.nombre);
+		
+	}
+
+}
