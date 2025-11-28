@@ -1,0 +1,31 @@
+package com.krakedev;
+
+public class TestAuto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Auto auto1;
+		Auto auto2;
+		
+		auto1 = new Auto();
+		auto2 = new Auto();
+		
+		auto1.setMarca("Toyota");
+		auto1.setAnio(2005);
+		auto1.setPrecio(12500.50);
+		
+		auto2.marca = "Ford";
+		auto2.anio = 2000;
+		auto2.precio = 10500.70;
+		
+		System.out.println("Marca auto 1: "+auto1.getMarca());
+		System.out.println("Año auto 1: "+auto1.getAnio());
+		System.out.println("Precio auto 1: "+auto1.getPrecio());
+		System.out.println("******************************");
+		System.out.println("Marca auto 2: "+auto2.getMarca());
+		System.out.println("Año auto 2: "+auto2.getAnio());
+		System.out.println("Precio auto 2: "+auto2.getPrecio());
+		
+	}
+
+}

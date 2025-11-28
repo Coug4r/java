@@ -1,0 +1,51 @@
+package com.krakedev;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Producto productoA;
+		Producto productoB;
+		Producto productoC;
+
+		productoA = new Producto();
+		productoB = new Producto();
+		productoC = new Producto();
+
+		productoA.setNombre("Paracetamol");
+		productoA.setDescripcion("Paracetamol de 1gr para el dolor");
+		productoA.setPrecio(0.6);
+		productoA.setStockActual(100000);
+
+		productoB.setNombre("Finali forte");
+		productoB.setDescripcion("Para el dolor intenso de la cabeza");
+		productoB.setPrecio(0.7);
+		productoB.setStockActual(10000);
+
+		productoC.setNombre("Five");
+		productoC.setDescripcion("Preservativos FIVE (caja de 5) ;)");
+		productoC.setPrecio(2.00);
+		productoC.setStockActual(100);
+
+		System.out.println("Nombre: " + productoA.getNombre());
+		System.out.println("Descripcion: " + productoA.getDescripcion());
+		System.out.println("Precio: " + productoA.getPrecio());
+		System.out.println("Stock actual: " + productoA.getStockActual());
+
+		System.out.println("=====================================");
+
+		System.out.println("Nombre: " + productoB.getNombre());
+		System.out.println("Descripcion: " + productoB.getDescripcion());
+		System.out.println("Precio: " + productoB.getPrecio());
+		System.out.println("Stock actual: " + productoB.getStockActual());
+
+		System.out.println("=====================================");
+
+		System.out.println("Nombre: " + productoC.nombre);
+		System.out.println("Descripcion: " + productoC.descripcion);
+		System.out.println("Precio: " + productoC.precio);
+		System.out.println("Stock actual: " + productoC.stockActual);
+
+	}
+
+}
