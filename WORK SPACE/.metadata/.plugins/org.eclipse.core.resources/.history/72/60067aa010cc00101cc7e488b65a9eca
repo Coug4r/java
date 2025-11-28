@@ -1,0 +1,34 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cuadrado c1 = new Cuadrado();
+		Cuadrado c2 = new Cuadrado();
+		Cuadrado c3 = new Cuadrado();
+		
+		c1.lado = 4;
+		c2.lado = 6;
+		c3.lado = 2;
+		
+		double area1 = c1.calcularArea();
+		double area2 = c2.calcularArea();
+		double area3 = c3.calcularArea();
+		
+		double per1 = c1.calcularPerimetro();
+		double per2 = c2.calcularPerimetro();
+		double per3 = c3.calcularPerimetro();
+		
+		System.out.println("El area del cuadrado 1 es: "+ area1);
+		System.out.println("El area del cuadrado 2 es: "+ area2);
+		System.out.println("El area del cuadrado 3 es: "+ area3);
+		
+		System.out.println("----------------------------------------");
+		
+		System.out.println("El perimetro del cuadrado 1 es: "+ per1);
+		System.out.println("El perimetro del cuadrado 2 es: "+ per2);
+		System.out.println("El perimetro del cuadrado 3 es: "+ per3);
+	}
+
+}
