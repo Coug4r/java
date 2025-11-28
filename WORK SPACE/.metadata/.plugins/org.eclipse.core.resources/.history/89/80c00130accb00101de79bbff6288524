@@ -1,0 +1,15 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculadora calcu;
+		calcu = new Calculadora();
+		int resultado = calcu.sumar(5, 8);
+		int resultadoResta = calcu.restar(10, 20);
+		System.out.println("RSULTADO SUMA: "+resultado);
+		System.out.println("RSULTADO RESTA: "+ resultadoResta);
+	}
+
+}
