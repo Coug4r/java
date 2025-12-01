@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Fecha;
 
 public class TestFecha {
 
@@ -8,7 +10,7 @@ public class TestFecha {
 		fecha1.setAnio(2000);
 		fecha1.setMes(12);
 		fecha1.setDia(26);
-		
+
 		System.out.println(fecha1.getAnio());
 		System.out.println(fecha1.getMes());
 		System.out.println(fecha1.getDia());

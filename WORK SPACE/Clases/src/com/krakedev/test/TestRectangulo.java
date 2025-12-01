@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Rectangulo;
 
 public class TestRectangulo {
 
@@ -9,13 +11,13 @@ public class TestRectangulo {
 		Rectangulo r3 = new Rectangulo();
 		r1.setBase(10);
 		r1.setAltura(5);
-		
+
 		r2.setBase(8);
 		r2.setAltura(3);
-		
+
 		r3.setBase(4);
 		r3.setAltura(2);
-		
+
 		int areaR1 = r1.calcularArea();
 		int areaR2 = r2.calcularArea();
 		double perimetroR3 = r3.calcularPerimetro();
