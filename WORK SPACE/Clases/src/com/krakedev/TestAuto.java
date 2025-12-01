@@ -7,16 +7,16 @@ public class TestAuto {
 		Auto auto1;
 		Auto auto2;
 		
-		auto1 = new Auto();
-		auto2 = new Auto();
+		auto1 = new Auto("Mazda",  1990, 20300);
+		auto2 = new Auto("Ford", 2000, 25000);
 		
-		auto1.setMarca("Toyota");
-		auto1.setAnio(2005);
-		auto1.setPrecio(12500.50);
+		//auto1.setMarca("Toyota");
+		//auto1.setAnio(2005);
+		//auto1.setPrecio(12500.50);
 		
-		auto2.setMarca("Ford");
-		auto2.setAnio(2000);
-		auto2.setPrecio(10500.70);
+		//auto2.setMarca("Ford");
+		//auto2.setAnio(2000);
+		//auto2.setPrecio(10500.70);
 		
 		System.out.println("Marca auto 1: "+auto1.getMarca());
 		System.out.println("Año auto 1: "+auto1.getAnio());
