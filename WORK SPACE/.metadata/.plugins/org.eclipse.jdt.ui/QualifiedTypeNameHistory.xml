@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="com.krakedev.controlflujo.Validor"/>
+    <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Validacion"/>
+    <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Estudiante"/>
+    <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Producto"/>
+    <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Item"/>
+    <fullyQualifiedTypeName name="com.krakedev.composicion.Persona"/>
+    <fullyQualifiedTypeName name="com.krakedev.composicion.AdminPorducto"/>
+    <fullyQualifiedTypeName name="com.krakedev.composicion.Producto"/>
+    <fullyQualifiedTypeName name="com.krakedev.composicion.Direccion"/>
 </qualifiedTypeNameHistroy>
