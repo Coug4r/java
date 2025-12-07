@@ -12,5 +12,4 @@ public class TestTelefono2 {
 		telf.imprimir();
 
 	}
-
 }
