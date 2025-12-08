@@ -12,4 +12,5 @@
     <fullyQualifiedTypeName name="com.krakedev.composicion.Direccion"/>
     <fullyQualifiedTypeName name="com.clearminds.maquina.MaquinaDulces"/>
     <fullyQualifiedTypeName name="krakedev.entidades.Estudiante"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
