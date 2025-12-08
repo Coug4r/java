@@ -10,4 +10,6 @@
     <fullyQualifiedTypeName name="com.krakedev.composicion.AdminPorducto"/>
     <fullyQualifiedTypeName name="com.krakedev.composicion.Producto"/>
     <fullyQualifiedTypeName name="com.krakedev.composicion.Direccion"/>
+    <fullyQualifiedTypeName name="com.clearminds.maquina.MaquinaDulces"/>
+    <fullyQualifiedTypeName name="krakedev.entidades.Estudiante"/>
 </qualifiedTypeNameHistroy>
