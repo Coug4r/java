@@ -15,4 +15,6 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="com.krakedev.entidades.Random"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.utilitario.Utilitario"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.Prestamo"/>
 </qualifiedTypeNameHistroy>
