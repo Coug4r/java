@@ -14,7 +14,11 @@
     <fullyQualifiedTypeName name="krakedev.entidades.Estudiante"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="com.krakedev.entidades.Random"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.utilitario.Utilitario"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.Prestamo"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.krackedev.estaticos.DiasSemana"/>
+    <fullyQualifiedTypeName name="com.krackedev.estaticos.ejercicio.utils.DiasSemana"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.krackedev.estaticos.ejercicio.utils.Util"/>
 </qualifiedTypeNameHistroy>
