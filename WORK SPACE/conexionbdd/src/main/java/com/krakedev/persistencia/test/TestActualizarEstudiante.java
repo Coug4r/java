@@ -1,0 +1,19 @@
+package com.krakedev.persistencia.test;
+
+import com.krakdev.persistencia.utils.Convertidor;
+import com.krakedev.persistencia.entidades.Estudiante;
+import com.krakedev.persistencia.entidades.Profesores;
+import com.krakedev.persistencia.servicios.AdminEstudiantes;
+
+public class TestActualizarEstudiante {
+	public static void main(String[] args) {
+		Profesores prof = new Profesores(1001, "Guanin");
+		Estudiante est = new Estudiante("E004", "Francisco", "Mendieta", "Francisco@gmail",prof);
+		try {
+			est.setFecha_nacimiento(Convertidor.convertirFecha("2005/07/25"));
+			AdminEstudiantes.actualizar(est);
+		} catch (Exception e) {
+			System.out.println("Error del sistema: "+ e.getMessage());
+		}
+	}
+}
